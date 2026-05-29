@@ -1,0 +1,15 @@
+# Core dependencies for the MVP engine
+numpy>=1.24
+pandas>=2.0
+
+# For Phase 0 real-data ingestion (uncomment when wiring in):
+# pybaseball>=2.2     # FanGraphs + Baseball Savant scrapers
+# chadwick-bureau     # for the player ID crosswalk
+# requests>=2.31
+
+# For Phase 5+ (pitch-level model):
+# scikit-learn>=1.3
+# xgboost>=2.0
+
+# For tests
+# pytest>=7.0
